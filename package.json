@@ -1,0 +1,29 @@
+{
+  "name": "node-hangman",
+  "version": "1.0.0",
+  "description": "simple hangman game in node.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemarq/node-hangman.git"
+  },
+  "keywords": [
+    "hangman",
+    "game",
+    "node.js"
+  ],
+  "author": "John-Mike Marquardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemarq/node-hangman/issues"
+  },
+  "homepage": "https://github.com/codemarq/node-hangman#readme",
+  "dependencies": {
+    "hangman-cli-art": "^1.0.1",
+    "prompt": "^1.0.0",
+    "random-words": "0.0.1"
+  }
+}

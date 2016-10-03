@@ -3,6 +3,26 @@
 
 // The app should end when a player guesses the correct word or 
 // runs out of guesses.
+// npm prompt dependency
+var prompt = require('prompt');
+
+// hangman art npm dependency
+var HangmanArt = require('hangman-cli-art');
+ 
+var art = new HangmanArt({
+  marginX: 5,
+  marginY: 5
+});
+ 
+var chance = 0
+var timer = setInterval(function () {
+  if (chance < 10) {
+    art.next()
+    chance++
+  } else {
+    clearInterval(timer)
+  }
+}, 1000);
 
 // placeholder-code fragment from week-3 hangman js
 var checkAnswer = function (letter) {

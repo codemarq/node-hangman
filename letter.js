@@ -1,7 +1,7 @@
 // `letter.js` should control whether or not a letter appears as 
 //  a "_" or as itself on-screen.
 
-function Letter () {
+// function Letter () {
 	
 // placeholder-code fragment from week-3 hangman js
 
