@@ -9,15 +9,8 @@ function Word (letter) {
 		if (index == -1) {
 			guesses.push(letter);
 		}
-	}		
-
-
-	
-}
-
-
-
-
+	}			
+};
 
 var answerArray = [];
 var guessesRemaining = 5;

@@ -1,5 +1,9 @@
 // Your `game.js` file will randomly select a word for the player.
-var wordList = ['winter', 'spring', 'summer', 'fall'];
+
+// require npm radom-words package
+var radomWords = require('random-words');
+
+var wordList = randomWords(5, {min: 4, max: 10});
 
 // declare a working array copy of individual letters in answer
 var answerWord = answer.name;
