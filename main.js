@@ -1,6 +1,6 @@
 // `main.js` will contain the logic of your app. Running it in 
 // Terminal/Bash will start the game.
-
+function main () {
 // The app should end when a player guesses the correct word or 
 // runs out of guesses.
 // npm prompt dependency
@@ -41,5 +41,5 @@ var checkAnswer = function (letter) {
 		}
 	}
 }
-
+}
 // rename variables and check. add requires and exports to each file.
